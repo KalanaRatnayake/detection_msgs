@@ -1,6 +1,6 @@
 std_msgs/Header header
 sensor_msgs/Image source_rgb
-sensor_msgs/Image source_depth
+sensor_msgs/PointCloud2 source_depth
 string[] full_class_list
 bool detections
 int16[] class_id
